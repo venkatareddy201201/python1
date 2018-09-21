@@ -1,0 +1,90 @@
+1) How to revers of the string with out builtin fuction?
+
+2) How to chagne the string word?
+
+3) How to count the number sting and char and captillatters ?
+
+4) How to count the repeated words in a string ?
+
+5) How to convert string to list in python?
+
+6) How to convert string to dictionary in python ?
+
+7) How to convert string to tuple in python
+
+8) How to convert string to int ?
+
+9) How to convert string to float?
+
+10) How to convert stirng to number format ?
+
+11) How to split the int and string sapart?
+
+ex: s = "hello123"
+
+12) what is height value in a string using for python?
+
+13) what is repeted world using for python ?
+
+14)How to print the (a,e,i,o,u) in string?
+
+15)How to print the order latters in strin ?
+
+16)How to replace the string  
+
+
+>> import num2word
+>>> num2word.to_card(100)
+'One hundred'
+>>> num2word.to_card(1239)
+'One thousand two hundred and thirty-nine'
+>>> num2word.to_card(1555)
+'one thousand, five hundred and fifty-five'
+
+
+print "\n".join([str(num).rjust(4, '0') for num in range(10000)])
+
+
+1) How to revers of the string with out builtin fuction?
+
+AS:
+n = 'hello'
+s =' '
+for i in n:
+    s = i+s
+print s
+
+11) How to split the int and string sapart?
+
+ex: s = "hello123"
+
+As:
+====
+s = 'hello123'
+s1=' '
+s2=' '
+for i in s:
+    if i.isdigit():
+        s1=i+s1
+    else:
+        s2=i+s2
+print s1
+print s2
+
+2) How to chagne the string word?
+
+>>> s = 'hello yorld'
+>>> s = list( 'hello yorld')
+>>> s
+['h', 'e', 'l', 'l', 'o', ' ', 'y', 'o', 'r', 'l', 'd']
+>>> s[6]="W"
+>>> s
+['h', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
+>>> ''.join(s)
+'hello World'
+>>> 
+
+
+
+
+
